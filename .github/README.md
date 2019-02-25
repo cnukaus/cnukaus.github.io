@@ -1,6 +1,11 @@
-
+## study
+https://towardsdatascience.com/real-time-streaming-and-anomaly-detection-pipeline-on-aws-cbd0bef6f20e
+https://github.com/blockchain-etl/ethereum-etl#querying-in-google-bigquery
+## Reference
+：https://github.com/enhancedsociety/pyspamsum Python Wrapper
+https://github.com/enhancedsociety/MultiSigWallet
 Task:
-
+## Do leisure
 Get 开始时间 from each http://fomoxdag.xdagpark.com/round.html?index=23 (loop from 23 to earliest)
 
 第 23 轮游戏
