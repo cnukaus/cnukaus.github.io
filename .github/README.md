@@ -21,4 +21,9 @@ https://github.com/cnukaus/urlmonitor/blob/master/downloader.py
                         <span>开始时间</span>
                     </div>
 
-                    <div class="col-sm value-color">
+
+## What is a designdoc not?
+(from Filecoin repo)
+A designdoc is not a spec: you use a designdoc to rationalize a plan ahead of implementation and it should have less detail and more discussion than a spec, and it should capture far more of the why than a spec would. A designdoc is not a github issue, though it may be captured in one: a designdoc typically ties together a number of open questions or problems into a coherent whole.
+
+A designdoc does not have to:
