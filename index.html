@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Copyright Wensen Dong. Anyone may use this file/template without asking. -->
+<html>
+    <head>
+        <title>My Page</title>
+        <style src="real-python.github.io/comicsansms.css"></style>
+    </head>
+    <body>
+        <script>
+  function search() {
+    var search_bar = document.getElementById("search_bar");
+    window.open("https://cnukaus.github.io/search.html?q=" + encodeURIComponent(search_bar.value))
+  }
+</script>
+<p>Search&#58;&#160;<input id="search_bar" placeholder="Type to search here..."></p><hr style="color: #fff;">
+<div id="flex"><button id="home" class="top_button"><a id="home_anchour" href="\">Home</a></button>
+  <button id="search" style="cursor: pointer" class="top_button">Search</button><button id="contact" class="top_button"><a href="/school.html">School</a></button>
+  <!-- <button id="contact" class="top_button"><a href="mailto:wensen.dong@education.nsw.gov.au?subject = Contact real-python.github.io">Contact Us!</a></button> -->
+  
+</div>
+<script>
+  document.getElementById("search").addEventListener("click", search)
+</script>
+<style>
+  body {
+    padding: 20px;
+  }
+  .top_button {
+    background-color: #00ff00;
+    font-size: 14px;
+    border: 1px solid #00ff00;
+    padding: 0px 0px;
+    height: 30px;
+    width: 75px;
+  }
+  #flex {
+    display: flex;
+  }
+  #home_anchour {
+    color: #000000;
+    text-decoration: none;
+  }
+</style>
+    </body>
+</html>
