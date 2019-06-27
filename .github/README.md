@@ -1,3 +1,10 @@
+##
+Make comments available:
+https://nemethgergely.com/using-github-for-comments-on-your-blog/
+[Jekyll](http://romantsegelskyi.github.io/blog/2015/07/26/personal-page-blog/)
+
+Seattle Board
+Talk to crypto-author (medium, Amber.io
 ## study
 https://towardsdatascience.com/real-time-streaming-and-anomaly-detection-pipeline-on-aws-cbd0bef6f20e
 https://github.com/blockchain-etl/ethereum-etl#querying-in-google-bigquery
