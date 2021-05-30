@@ -4,8 +4,8 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=9">
 <link rel="stylesheet" type="text/css" href="Namenode%20information_files/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="app.css">
-<title>demo</title>
+<link rel="stylesheet" type="text/css" href="app1.css">
+<title>result</title>
 </head>
 <body>
 
@@ -16,7 +16,7 @@
   </div>
 
   <ul class="nav navbar-nav" id="ui-tabs">
-    <li class="active"><a href="#">Upload</a></li>
+    <li class="active"><a href="#">Analysis</a></li>
     <li><a href="#Products">Products</a></li>
     <li><a href="#Developer">Developer</a></li>
     <li><a href="#Community">Community</a></li>
@@ -40,13 +40,25 @@
 </header>
 
 <div class="container">
-	<form action="result.html" method="post" enctype="multipart/form-data">
-		<input type="file"  name="poto"><br>
-		<input type="submit" value="上传">
-	</form> 
 <div class="tab-content">
-  <div class="tab-pane" id="tab-datanode">
+<div class="page-header"><h3>回测策略1</h3></div>  
+  <div class="input-group spinner">
+    <input type="text" class="form-control" value="1700%">
+    <div class="input-group-btn-vertical">
+      <button class="btn btn-default" type="button"><i class="fa fa-caret-up">过往12个月收益</i></button>
+    </div>
+  </div>
 
+<div class="page-header"><h3>回测策略2</h3></div>  
+  <div class="input-group spinner">
+    <input type="text" class="form-control" value="450%">
+    <div class="input-group-btn-vertical">
+      <button class="btn btn-default" type="button"><i class="fa fa-caret-up">接下来6个月收益</i></button>
+    </div>
+  </div>
+  
+  <div class="tab-pane" id="tab-datanode">
+	
   </div>
   <div class="tab-pane" id="tab-datanode-volume-failures"></div>
   <div class="tab-pane" id="tab-snapshot"></div>
